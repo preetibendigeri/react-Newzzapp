@@ -75,7 +75,7 @@ handleNextClick = async () => {
           <h1 className="text-center" style={{ margin: '35px 0px' }}>NewsMonkey - Top {(this.props.category)} Headlines</h1>
           {this.state.loading && <Spinner />}
           <InfiniteScroll
-                    dataLength={this.state.articles.length}
+                dataLength={Array.isArray(this.state.articles) ? this.state.articles.length : 0}
                     next={this.fetchMoreData}
                     hasMore={this.state.articles.length !== this.state.totalResults}
                     loader={<Spinner/>}

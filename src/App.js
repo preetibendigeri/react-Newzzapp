@@ -21,7 +21,7 @@ const App=()=>{
   
     return (
       <div>
-      <Router>
+      <Router basename='/react-Newzzapp'>
       <Navbar/>
       <LoadingBar
         color='#f11946'
@@ -29,7 +29,7 @@ const App=()=>{
       
       />
       <Routes>
-        <Route exact path="/" element={<News setProgress={setProgress}  key='general' pageSize={6} country="in" category="general"/>}></Route>
+        <Route exact path="/react-Newzzapp" element={<News setProgress={setProgress}  key='general' pageSize={6} country="in" category="general"/>}></Route>
         <Route exact path="/Business" element={ <News setProgress={setProgress} key='business'  pageSize={6} country="in" category="business"/>}></Route>
         <Route exact path="/Entertainment" element={<News setProgress={setProgress} key='entertainment'  pageSize={6} country="in" category="entertainment"/>}></Route>
         <Route exact path="/General" element={ <News setProgress={setProgress} key='general'  pageSize={6} country="in" category="general"/>}></Route>
