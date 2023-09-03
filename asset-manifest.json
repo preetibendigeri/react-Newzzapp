@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-Newzzapp/static/css/main.abd64e84.css",
-    "main.js": "/react-Newzzapp/static/js/main.8250c6b3.js",
+    "main.js": "/react-Newzzapp/static/js/main.374aaf9d.js",
     "static/js/787.4c026eef.chunk.js": "/react-Newzzapp/static/js/787.4c026eef.chunk.js",
     "static/media/loading.gif": "/react-Newzzapp/static/media/loading.e838c3d072aeeb1af251.gif",
     "index.html": "/react-Newzzapp/index.html",
     "main.abd64e84.css.map": "/react-Newzzapp/static/css/main.abd64e84.css.map",
-    "main.8250c6b3.js.map": "/react-Newzzapp/static/js/main.8250c6b3.js.map",
+    "main.374aaf9d.js.map": "/react-Newzzapp/static/js/main.374aaf9d.js.map",
     "787.4c026eef.chunk.js.map": "/react-Newzzapp/static/js/787.4c026eef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.8250c6b3.js"
+    "static/js/main.374aaf9d.js"
   ]
 }
