@@ -77,7 +77,7 @@ handleNextClick = async () => {
           <InfiniteScroll
                 dataLength={Array.isArray(this.state.articles) ? this.state.articles.length : 0}
                     next={this.fetchMoreData}
-                    hasMore={this.state.articles.length !== this.state.totalResults}
+                    hasMore={Array.isArray(this.state.articles) ? this.state.articles.length : 0 !== this.state.totalResults}
                     loader={<Spinner/>}
                 > 
                     <div className="container">
